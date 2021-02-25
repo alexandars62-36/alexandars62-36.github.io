@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #61a375;
+    position: fixed;
+}
+nav{
+    flex-grow: 1;
+}
+.language{
+    text-align: right;
+    width: 100%;
+    margin-top: 10px;
+}
+.language a{
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.language a:not(:first-child){
+    margin-right: 20px;
+}
+.language a:not(:last-child){
+    border-right: solid white 2px;
+}
+h1{
+    margin-top: 5vh;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+nav ul{
+    text-align: right;
+    display: flex;
+    flex-grow: 1;
+}
+header li{
+    margin-top: 4vh;
+    display: flex;  
+    align-items: flex-end;
+    text-align: left;
+    margin-right: auto;
+    color: white;
+    margin-left: 2vh;
+}
