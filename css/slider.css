@@ -1,0 +1,7 @@
+.slider img{
+    height: 700px;
+    width: 1900px;
+}
+.slider span{
+    z-index: 20;
+}
