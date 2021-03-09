@@ -1,0 +1,30 @@
+
+.slider{
+    z-index: -3;
+    height: 70vh;
+}
+.slider img{
+    height: 70vh;
+    width: 100%;
+}
+.blackout{
+    margin-left: auto;
+    display: block;
+    z-index: -3;
+    width: 40vw;
+    height: 70vh;
+    margin-top: -70vh;
+    background-color: rgba(255, 255, 255, 0.549);
+}
+.text-slider{
+    margin-left: auto;
+    height: 100%;
+    width: 36vw;
+    margin-top: -50vh;
+}
+.text-slider div{
+    height: 50vh;
+}
+.text-slider h2{
+    margin-bottom: 2vw;
+}
