@@ -90,7 +90,6 @@
 }
 .technical_parameters{
     margin-top: 4vw;
-    font-size: 0;
 }
 .technical_parameters_header{
     margin-left: 10vw;
@@ -113,7 +112,6 @@ flex-grow: 2;
     width: 12.4vw;
 }
 .technical_parameter {
-    font-size: 0;
     cursor: pointer;
     padding-left: 2vw;
     text-align: left;
@@ -122,6 +120,7 @@ flex-grow: 2;
     width: 80vw;
     margin-left: 10vw;
     display: flex;
+    border: solid rgb(77, 77, 77) 1px;
   }
   .technical_parameter p{
       font-weight: 600;
