@@ -97,7 +97,7 @@
     display: flex;
 }
 .technical_parameters_header h6{
-margin-top: 0.5vw;
+margin-top: 1.5vw;
 flex-grow: 2;
 }
 .technical_parameters_header_img{
@@ -113,6 +113,7 @@ flex-grow: 2;
     width: 12.4vw;
 }
 .technical_parameter {
+    padding-bottom: 1vw;
     cursor: pointer;
     padding-left: 2vw;
     text-align: left;
