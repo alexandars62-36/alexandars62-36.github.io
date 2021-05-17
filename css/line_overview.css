@@ -128,30 +128,30 @@ flex-grow: 2;
       margin-top: 2.5vw;
   }
   .technical_parameter .img_200{
-      width: 55vw;
-      height: 5vw;
+      width: 40vw;
+      height: 4vw;
       padding-top: 1vw;
       padding-bottom: 1vw;
   }
   .technical_parameter .img_135{
-    width: 24vw;
-    height: 5vw;
-    flex-grow: 1;
+    width: 16vw;
+    height: 4vw;
+    flex-grow: 0.5;
     padding-top: 1vw;
     padding-bottom: 1vw;
     margin-right: -0.3vw;
   }
   .technical_parameter .img_100{
-    width: 3vw;
-    height: 5vw;
-    flex-grow: 1;
+    width: 4.5vw;
+    height: 4vw;
+    flex-grow: 0.5;
     padding-top: 1vw;
     padding-bottom: 1vw;
 }
 .technical_parameter .img_70{
-    width: 2.3vw;
-    height: 5vw;
-    flex-grow: 0.5;
+    width: 12.5vw;
+    height: 4vw;
+    flex-grow: 0.1;
     padding-top: 1vw;
     padding-bottom: 1vw;
 }
