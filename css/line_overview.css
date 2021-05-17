@@ -163,8 +163,9 @@ flex-grow: 2;
     display: none;
     background-color: white;
     overflow: hidden;
-    width: 80vw;
+    width: 79.9vw;
     margin-left: 10vw;
+    border-right: solid rgb(77, 77, 77) 1px;
   }
   .technical_parameters .technical_parameter_panel th{
       background-color: #61a375;
