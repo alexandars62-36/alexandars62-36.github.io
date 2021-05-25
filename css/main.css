@@ -136,7 +136,7 @@ height: 20.91px;
 }
 .clinic .clinic_img{
     flex-grow: 1;
-    width: 1085px;
+    width: auto;
     height: 704px;
     margin-top: 136px;
 }
