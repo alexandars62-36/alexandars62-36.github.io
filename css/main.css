@@ -1,9 +1,13 @@
 @import url(./settings.css);
 @import url(./reset.css);
 
+body{
+    overflow-x:hidden;
+}
+
 header{
     position: absolute;
-    width: 100%;
+    width: 1900px;
     height: 150px;
     left: 0px;
     top: 0px;
@@ -136,7 +140,7 @@ height: 20.91px;
 }
 .clinic .clinic_img{
     flex-grow: 1;
-    width: auto;
+    width: 1900px;
     height: 704px;
     margin-top: 136px;
 }
