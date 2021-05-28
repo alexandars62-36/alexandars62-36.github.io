@@ -1371,7 +1371,7 @@
             }
         }
         
-        @media screen and (max-width: 321px) {
+        @media screen and (max-width: 300px) {
             header .nav_2 {
                 margin-top: 2vw;
             }
