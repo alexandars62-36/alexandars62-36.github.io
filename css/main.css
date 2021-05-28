@@ -1,0 +1,1344 @@
+    @import url(./settings.css);
+    @import url(./reset.css);
+    @import url(./slider.css);
+    @import url(./slick-theme.css);
+    body {
+        overflow-x: hidden;
+    }
+    
+    a:hover {
+        color: #02BBB6;
+    }
+    
+    header {
+        position: absolute;
+        width: 100%;
+        height: 7.8vw;
+        left: 0px;
+        top: 0px;
+        background: #D1FFFE;
+    }
+    
+    .header_logo_img {
+        position: absolute;
+        width: 5.26vw;
+        height: 5vw;
+        left: 18vw;
+        top: 1.5vw;
+        z-index: 1;
+    }
+    
+    .search {
+        position: absolute;
+        width: 22vw;
+        height: 2vw;
+        left: 26.3vw;
+        top: 2vw;
+        background: #FFFFFF;
+        border-radius: 0.5vw;
+        z-index: 1;
+        border: solid #FFFFFF 1px;
+    }
+    
+    input {
+        font-family: "Roboto", sans-serif;
+        padding-left: 0.5vw;
+        width: 22vw;
+        height: 2vw;
+        font-weight: 300;
+        font-size: 0.8vw;
+        color: #4C4B4B;
+    }
+    
+    header .img_1 {
+        position: absolute;
+        width: 2vw;
+        height: 2vw;
+        left: 53vw;
+        top: 2vw;
+        z-index: 1;
+    }
+    
+    header .img_2 {
+        position: absolute;
+        width: 2vw;
+        height: 2vw;
+        left: 53vw;
+        top: 2vw;
+        left: 57.5vw;
+        z-index: 1;
+    }
+    
+    header .img_3 {
+        position: absolute;
+        width: 2vw;
+        height: 2vw;
+        left: 53vw;
+        top: 2vw;
+        left: 63vw;
+        z-index: 1;
+    }
+    
+    nav {
+        position: absolute;
+        width: 57.8vw;
+        height: 2.2vw;
+        left: 26vw;
+        top: 5.3vw;
+    }
+    
+    nav li {
+        display: inline-block;
+        position: relative;
+    }
+    
+    nav a {
+        font-family: "Roboto", sans-serif;
+        margin-left: 0.5vw;
+        font-weight: 600;
+        font-size: 0.8vw;
+        color: #4C4B4B;
+        text-decoration: none;
+    }
+    
+    nav .nav_2 {
+        margin-top: -1.18vw;
+        margin-left: -0.1vw;
+        height: 3vw;
+        padding: 0.5vw;
+        text-align: center;
+        display: inline-block;
+        position: absolute;
+    }
+    
+    nav .nav_3 {
+        margin-left: 7vw;
+        background-color: none;
+    }
+    
+    .dropdown-content {
+        position: absolute;
+        display: none;
+        background-color: #FFFFFF;
+        min-width: 8vw;
+        z-index: 1;
+    }
+    
+    nav button {
+        background-color: #d1fffe00;
+        border: none;
+        font-family: "Roboto", sans-serif;
+        margin-left: 0.9vw;
+        font-weight: 600;
+        font-size: 0.8vw;
+        color: #4C4B4B;
+        padding-top: 0.1vw;
+    }
+    
+    .dropdown-content a {
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-size: 0.7vw;
+        line-height: 0.7vw;
+        padding: 0.6vw 0.7vw;
+        text-decoration: none;
+        display: block;
+        z-index: 1;
+        text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: none;
+    }
+    
+    .nav_3:hover .dropdown-content {
+        display: block;
+    }
+    
+    nav a:hover:not(:last-child) {
+        color: #02BBB6;
+    }
+    
+    nav .nav_3 img {
+        width: 0.6vw;
+        height: 0.6vw;
+        transform: rotate(-90deg);
+    }
+    
+    nav .online {
+        background-color: #02BBB6;
+        border-radius: 0.5vw;
+        padding: 0.4vw;
+        color: #555555;
+        border: solid #02BBB6 1px;
+    }
+    
+    .slider .online {
+        display: block;
+        position: absolute;
+        background-color: #02BBB6;
+        border-radius: 1vw;
+        padding: 0.4vw;
+        font-size: 2vw;
+        text-decoration: none;
+        color: #555555;
+        border: solid #02BBB6 1px;
+        margin-top: 25vw;
+        margin-left: 18vw;
+        border-radius: 0.5vw;
+    }
+    
+    .slider .online:hover {
+        background-color: #D1FFFE;
+    }
+    
+    header .numbers .online {
+        display: none;
+    }
+    
+    nav .online:hover {
+        background-color: #D1FFFE;
+        border: solid #02BBB6 1px;
+    }
+    
+    nav .online:active {
+        background-color: #02BBB6;
+        border: solid #02BBB6 1px;
+    }
+    
+    .numbers {
+        position: absolute;
+        width: 10vw;
+        height: 6vw;
+        left: 74vw;
+        top: 1.3vw;
+    }
+    
+    .numbers img {
+        margin-top: -0.3vw;
+        padding-right: 0.3vw;
+        width: 1vw;
+        height: 1vw;
+    }
+    
+    .numbers a {
+        font-family: "Roboto", sans-serif;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1vw;
+        line-height: 1.5vw;
+        color: #4C4B4B;
+    }
+    
+    .slider {
+        margin-top: 7.8vw;
+    }
+    
+    .slider h2 {
+        width: 48vw;
+        height: 13vw;
+        margin-left: 18vw;
+        margin-top: 7vw;
+        font-family: "Tenor Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3vw;
+        line-height: 4vw;
+        position: absolute;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    
+    .slider p {
+        position: absolute;
+        width: 49.5vw;
+        height: 4.5vw;
+        margin-top: 20.5vw;
+        margin-left: 18vw;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1vw;
+        line-height: 1vw;
+        color: #8D8989;
+    }
+    
+    .clinic {
+        display: flex;
+    }
+    
+    .clinic .clinic_img {
+        flex-grow: 1;
+        width: 53vw;
+        height: 36.9vw;
+    }
+    
+    .clinic .clinic_text {
+        margin-top: 7.8vw;
+        margin-right: 18vw;
+        flex-grow: 3;
+    }
+    
+    .clinic .clinic_text h2 {
+        font-family: sans-serif, "TenorSans";
+        font-size: 2.5vw;
+        font-weight: 400;
+        line-height: 3.5vw;
+        color: #4C4B4B;
+        margin-bottom: 0.1vw;
+    }
+    
+    .clinic .clinic_text h2:not(:first-child) {
+        font-family: "Roboto", sans-serif;
+        font-size: 2.5vw;
+        font-weight: 400;
+        line-height: 3.5vw;
+        color: #02BBB6;
+    }
+    
+    .clinic .clinic_text p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.9vw;
+        line-height: 1.3vw;
+        color: #9A9A9A;
+        margin-top: 2vw;
+    }
+    
+    .specialists {
+        background-color: #D1FFFE;
+        width: 100%;
+        height: 53vw;
+    }
+    
+    .specialists_conteiner {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+    
+    .specialists h2 {
+        padding-top: 7vw;
+        padding-bottom: 3vw;
+        padding-left: 19vw;
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3vw;
+        color: #4C4B4B;
+    }
+    
+    .specialist_1 img,
+    .specialist_2 img,
+    .specialist_3 img,
+    .specialist_4 img,
+    .specialist_5 img {
+        height: 22vw;
+        width: 17vw;
+    }
+    
+    .specialist_1,
+    .specialist_2,
+    .specialist_3,
+    .specialist_4,
+    .specialist_5 {
+        height: 36vw;
+        width: 17vw;
+        background-color: #FFFFFF;
+        margin: auto;
+        margin-bottom: 1vw;
+    }
+    
+    .comand_slider h5 {
+        margin-left: 1vw;
+        margin-top: 1.5vw;
+        width: 17vw;
+        height: 3.5vw;
+        font-family: "Tenor Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.4vw;
+        line-height: 1.5vw;
+        color: #4C4B4B;
+    }
+    
+    .comand_slider p {
+        width: 16.7vw;
+        height: 3vw;
+        margin-left: 1.1vw;
+        margin-bottom: 2.3vw;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.2vw;
+        line-height: 1.4vw;
+        color: #4C4B4B;
+    }
+    
+    .comand_slider a {
+        background-color: #02BBB6;
+        border-radius: 0.5vw;
+        padding: 0.4vw;
+        padding-left: 0.6vw;
+        padding-right: 0.6vw;
+        color: #555555;
+        font-size: 1.5vw;
+        font-family: "Roboto", sans-serif;
+        text-decoration: none;
+        margin-left: 3.6vw;
+        border: solid #02BBB6 1px;
+    }
+    
+    .comand_slider a:hover {
+        background-color: #D1FFFE;
+        border: solid #02BBB6 1px;
+    }
+    
+    .comand_slider a:active {
+        background-color: #02BBB6;
+    }
+    
+    .services {
+        width: auto;
+        height: auto;
+    }
+    
+    .services h2 {
+        margin-top: 6.3vw;
+        margin-bottom: 1.9vw;
+        margin-left: 18.9vw;
+        font-family: "Tenor Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5vw;
+        line-height: 2.9vw;
+        color: #4C4B4B;
+    }
+    
+    .services .sort_button {
+        margin-left: 19vw;
+        margin-bottom: 1.5vw;
+    }
+    
+    .services .sort_button button:not(:first-child) {
+        margin-left: 1.4vw;
+    }
+    
+    .services .sort_button button {
+        width: 14.4vw;
+        height: 5vw;
+        background: #FFFFFF;
+        border: 2px solid #D1FFFE;
+    }
+    
+    .services .sort_button .sort_button_1 {
+        background-color: #D1FFFE;
+    }
+    
+    .services .sort_img img {
+        width: auto;
+        height: 36.8vw;
+    }
+    
+    .sort_img_2,
+    .sort_img_3,
+    .sort_img_4 {
+        display: none;
+    }
+    
+    .sort_text_2,
+    .sort_text_3,
+    .sort_text_4 {
+        display: none;
+    }
+    
+    .services .sort_text h5 {
+        font-family: "Tenor Sans", sans-serif;
+        width: 30.2vw;
+        height: 2.4vw;
+        font-style: normal;
+        font-size: 1.5vw;
+        line-height: 1.2vw;
+        color: #4C4B4B;
+        margin-bottom: 2vw;
+    }
+    
+    .services p {
+        font-family: "Roboto", sans-serif;
+        width: 30.2vw;
+        height: 6.2vw;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.9vw;
+        line-height: 1.3vw;
+        color: #4C4B4B;
+    }
+    
+    .services .sort_button button {
+        font-family: "Tenor Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1vw;
+        line-height: 1.2vw;
+        text-align: center;
+        color: #9A9A9A;
+    }
+    
+    .services .sort_text button {
+        background-color: #ffffff00;
+        border: none;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1vw;
+        line-height: 2vw;
+    }
+    
+    .services .sort_text button:hover {
+        color: #02BBB6;
+    }
+    
+    .services .sort_text {
+        position: absolute;
+        margin-top: -30vw;
+        margin-left: 18.9vw;
+    }
+    
+    .services .sort_text_3_btn {
+        display: flex;
+    }
+    
+    .services .sort_text_3_btn ul:not(:first-child) {
+        margin-left: 1.7vw;
+    }
+    
+    .sort_text_1_1,
+    .sort_text_1_2,
+    .sort_text_1_3,
+    .sort_text_1_4,
+    .sort_text_1_5,
+    .sort_text_1_6,
+    .sort_text_2_1,
+    .sort_text_2_2,
+    .sort_text_2_3,
+    .sort_text_3_1,
+    .sort_text_3_2,
+    .sort_text_3_3,
+    .sort_text_3_4,
+    .sort_text_3_5,
+    .sort_text_3_6,
+    .sort_text_3_7,
+    .sort_text_3_8,
+    .sort_text_3_9,
+    .sort_text_3_10,
+    .sort_text_3_11,
+    .sort_text_3_12,
+    .sort_text_3_13,
+    .sort_text_4_1,
+    .sort_text_4_2,
+    .sort_text_4_3 {
+        width: 30.3vw;
+        position: absolute;
+        display: none;
+        height: 29.6vw;
+        background: #D1FFFE;
+        margin-top: -20vw;
+    }
+    
+    .sort_text_1_1,
+    .sort_text_1_2,
+    .sort_text_1_3,
+    .sort_text_1_4,
+    .sort_text_1_5,
+    .sort_text_1_6 {
+        margin-left: 40vw;
+        margin-top: -20vw;
+    }
+    
+    .sort_text_2_1,
+    .sort_text_2_2,
+    .sort_text_2_3 {
+        margin-left: 30vw;
+        margin-top: -20vw;
+    }
+    
+    .sort_text_3_1,
+    .sort_text_3_2,
+    .sort_text_3_3,
+    .sort_text_3_4,
+    .sort_text_3_5,
+    .sort_text_3_6,
+    .sort_text_3_7,
+    .sort_text_3_8,
+    .sort_text_3_9,
+    .sort_text_3_10,
+    .sort_text_3_11,
+    .sort_text_3_12,
+    .sort_text_3_13 {
+        margin-left: 30vw;
+        margin-top: -28vw;
+    }
+    
+    .sort_text_4_1,
+    .sort_text_4_2,
+    .sort_text_4_3 {
+        margin-left: 30vw;
+        margin-top: -20vw;
+    }
+    
+    .services a {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.8vw;
+        line-height: 1.3vw;
+        text-decoration-line: underline;
+        color: #9A9A9A;
+        margin-left: 5vw;
+        margin-top: -5vw;
+        position: absolute;
+    }
+    
+    .services a:hover {
+        color: #02BBB6;
+    }
+    
+    .services li {
+        margin-left: -0.4vw;
+    }
+    
+    .shop {
+        width: 100%;
+        height: 55.6vw;
+        background: #D1FFFE;
+    }
+    
+    .shop h2 {
+        padding-top: 6.4vw;
+        margin-bottom: 2.2vw;
+        margin-left: 18.9vw;
+        font-family: "Tenor Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5vw;
+        line-height: 2.9vw;
+        color: #4C4B4B;
+    }
+    
+    .shop_btn {
+        margin-left: 18.9vw;
+    }
+    
+    .shop_btn button {
+        background-color: #ffffff00;
+        border: none;
+        font-family: "Tenor Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        line-height: 1.2vw;
+        color: #02BBB6;
+    }
+    
+    .shop_btn button:not(:first-child) {
+        margin-left: 10vw;
+        color: #9A9A9A;
+    }
+    
+    .shop_man,
+    .shop_women {
+        height: 30vw;
+        width: 63vw;
+        background-color: #FFFFFF;
+        margin-left: 19vw;
+        margin-top: 2.2vw;
+        margin-bottom: 3vw;
+    }
+    
+    .shop_women {
+        display: none;
+    }
+    
+    .shop a {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.2vw;
+        line-height: 1.3vw;
+        text-decoration-line: underline;
+        color: #9A9A9A;
+        position: absolute;
+        margin-left: 19vw;
+    }
+    
+    .shop a:hover {
+        color: #02BBB6;
+    }
+    
+    .promotions {
+        width: 100%;
+        height: 46.3vw;
+    }
+    
+    .promotions h4 {
+        margin-left: 17.5vw;
+        margin-top: 7vw;
+        width: 46.1vw;
+        height: 2.9vw;
+        font-family: "Tenor Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5vw;
+        line-height: 2.9vw;
+        color: #4C4B4B;
+    }
+    
+    .promotions ul {
+        display: flex;
+        margin-left: 18.9vw;
+        margin-right: 18.9vw;
+    }
+    
+    .promotions li {
+        margin: auto;
+        margin-top: 3.4vw;
+    }
+    
+    .promotions img {
+        width: 19.5vw;
+        height: 19.5vw;
+        margin-bottom: 1.5vw;
+    }
+    
+    .promotions p {
+        width: 19.5vw;
+        height: 2.6vw;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.8vw;
+        line-height: 1.3vw;
+        color: #4C4B4B;
+    }
+    
+    .promotions .promotions_date {
+        width: 19.5vw;
+        height: 2.63vw;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.8vw;
+        line-height: 1.3vw;
+        color: #02BBB6;
+    }
+    
+    .form {
+        width: auto;
+        height: 41.7vw;
+    }
+    
+    .form .form_color {
+        margin-top: 6.7vw;
+        width: 100%;
+        height: 25.9vw;
+        background-color: #C4C4C4;
+    }
+    
+    .form .form_cont {
+        margin-left: 50.8vw;
+        width: 30.2vw;
+        height: 3.8vw;
+        padding-top: 5.8vw;
+    }
+    
+    .form_cont h5 {
+        font-family: "Tenor Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5vw;
+        line-height: 2.9vw;
+        color: #4C4B4B;
+        margin-bottom: 1.7vw;
+    }
+    
+    .form_cont p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.8vw;
+        line-height: 1.3vw;
+        color: #4C4B4B;
+    }
+    
+    .form_cont p:not(:first-child) {
+        margin-top: 0.9vw;
+        margin-bottom: 0.9vw;
+    }
+    
+    .form_cont img {
+        margin-bottom: 0.5vw;
+    }
+    
+    .form_cont a {
+        font-family: "Roboto", sans-serif;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1vw;
+        line-height: 1.6vw;
+        text-align: center;
+        color: #4C4B4B;
+    }
+    
+    .form form {
+        position: absolute;
+        margin-top: -34.1vw;
+        width: 30.2vw;
+        height: auto;
+        left: 18.9vw;
+        background: #D1FFFE;
+    }
+    
+    .form form ul {
+        margin-top: 4.8vw;
+        margin-left: 1.6vw;
+    }
+    
+    .form form input {
+        width: 27vw;
+        height: 3.1vw;
+        margin-bottom: 1.7vw;
+        border: none;
+    }
+    
+    .form form .message {
+        height: 15.3vw;
+    }
+    
+    .form form button {
+        margin-left: 8.9vw;
+        background-color: #02BBB6;
+        border-radius: 0.5vw;
+        border: none;
+        padding-top: 0.4vw;
+        padding-bottom: 0.4vw;
+        padding-left: 1.58vw;
+        padding-right: 1.58vw;
+        color: #555555;
+        border: solid #02BBB6 1px;
+    }
+    
+    .form form button:hover {
+        background-color: #D1FFFE;
+        border: solid #02BBB6 1px;
+    }
+    
+    .form form button:active {
+        background-color: #02BBB6;
+    }
+    
+    .form_confidentiality {
+        display: flex;
+        margin-left: -7.9vw;
+    }
+    
+    form .form_confidentiality input {
+        margin-top: 1.3vw;
+        width: 0.6vw;
+        height: 0.6vw;
+        margin-left: 13.1vw;
+        flex-grow: 1;
+    }
+    
+    .form_confidentiality,
+    .form_confidentiality a {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.7vw;
+        line-height: 0.8vw;
+        text-align: center;
+        color: #9A9A9A;
+    }
+    
+    .confidentiality_text {
+        margin-top: 0.8vw;
+        margin-right: 7.9vw;
+        width: 15.8vw;
+        height: 1.5vw;
+        flex-grow: 3;
+    }
+    
+    form textarea {
+        width: 26.9vw;
+        height: 15.3vw;
+        border: none;
+        margin-bottom: 1.6vw;
+    }
+    
+    .map iframe {
+        width: 100%;
+        height: 36.7vw;
+        border: 0;
+    }
+    
+    footer {
+        width: 100%;
+        height: auto;
+        background: #D1FFFE;
+    }
+    
+    footer .inf {
+        display: flex;
+    }
+    
+    footer .footer_logo {
+        width: 8.6vw;
+        height: 7.5vw;
+        margin-top: 3.7vw;
+        margin-left: 18.8vw;
+        margin-right: 7.3vw;
+    }
+    
+    footer .footer_logo img {
+        width: 8.6vw;
+        height: 7.5vw;
+    }
+    
+    footer ul {
+        margin-top: 3.7vw;
+    }
+    
+    footer li {
+        line-height: 2.1vw;
+    }
+    
+    footer h6 {
+        width: 14.3vw;
+        height: 1.9vw;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1vw;
+        line-height: 1.6vw;
+        color: #4C4B4B;
+    }
+    
+    footer a {
+        width: 14.4vw;
+        height: 1.4vw;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1vw;
+        color: #4C4B4B;
+        text-decoration: none;
+    }
+    
+    .footer_tel,
+    .footer_mas {
+        width: 1.6vw;
+        height: 1.6vw;
+    }
+    
+    .call,
+    .call a {
+        width: 14.3vw;
+        height: 2.3vw;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1vw;
+        line-height: 1.6vw;
+        color: #4C4B4B;
+    }
+    
+    footer .call {
+        margin-left: 2.1vw;
+    }
+    
+    footer p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-size: 0.7vw;
+        margin-top: 2.6vw;
+        margin-left: 18.8vw;
+        padding-bottom: 2vw;
+        color: #888888;
+    }
+    
+    footer .social_network a:not(:first-child) {
+        margin-left: 1vw;
+    }
+    
+    footer .social_network img {
+        width: 2vw;
+    }
+    
+    .comand {
+        display: none;
+    }
+    
+    @media screen and (max-width: 999px) {
+        .clinic .clinic_text p {
+            font-size: 1.2vw;
+            line-height: 1.5vw;
+        }
+        .slider p {
+            font-size: 1.2vw;
+        }
+        header {
+            z-index: 1;
+            height: 15vw;
+        }
+        main {
+            margin-top: 15vw;
+        }
+        .menu-burger__header {
+            position: absolute;
+            /* задаем относительное позиционирование */
+            width: 40px;
+            /* определяем размеры блока */
+            height: 35px;
+            display: block;
+            margin-left: 90vw;
+            margin-top: 5vw;
+        }
+        .menu-burger__header span,
+        .menu-burger__header:after,
+        .menu-burger__header:before {
+            height: 3px;
+            width: 100%;
+            position: absolute;
+            background: #515758;
+            margin: 0 auto;
+        }
+        .menu-burger__header span {
+            top: 12px;
+        }
+        .menu-burger__header:after,
+        .menu-burger__header:before {
+            content: '';
+        }
+        .menu-burger__header:after {
+            bottom: 13px;
+        }
+        .menu-burger__header:before {
+            top: 5px;
+        }
+        header nav {
+            display: block;
+            position: absolute;
+            background: #9A9A9A;
+            box-shadow: #9A9A9A;
+            width: 50vw;
+            height: auto;
+            box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
+            margin-left: 50vw;
+            margin-top: 9.8vw;
+            left: -100%;
+            transition: all 0.4s ease;
+        }
+        nav .online {
+            display: none;
+        }
+        .dropdown-content a {
+            color: #4C4B4B;
+            margin-top: 1vw;
+        }
+        .header__nav.open-menu {
+            left: 0;
+        }
+        .search {
+            margin-top: 2vw;
+            margin-left: -5vw;
+            width: 25vw;
+            height: 5vw;
+            border-radius: 2.5vw;
+        }
+        header input {
+            font-size: 2vw;
+            padding-left: 2vw;
+        }
+        header .img_1 {
+            margin-top: 2vw;
+            margin-left: 2vw;
+            width: 5vw;
+            height: 5vw;
+        }
+        header .img_2 {
+            margin-top: 2vw;
+            width: 5vw;
+            height: 5vw;
+            margin-left: 6vw;
+        }
+        header .img_3 {
+            margin-top: 2vw;
+            width: 5vw;
+            height: 5vw;
+            margin-left: 10vw;
+        }
+        header .numbers {
+            display: flex;
+            width: 80vw;
+            margin-top: 10vw;
+            margin-left: -54vw;
+        }
+        header .numbers img {
+            height: 3vw;
+            width: 3vw;
+        }
+        header .numbers a {
+            font-size: 2vw;
+            margin-right: 2vw;
+        }
+        header .numbers .online {
+            display: inline;
+            background-color: #02BBB6;
+            border-radius: 1vw;
+            padding: 0.4vw;
+            color: #555555;
+            border: solid #02BBB6 1px;
+        }
+        nav li {
+            display: block;
+            position: relative;
+            margin-bottom: 1vw;
+            height: 1vw;
+            margin-left: 1vw;
+            margin-top: 1vw;
+            height: 1.2vw;
+        }
+        .header_logo_img {
+            height: 11.5vw;
+            width: auto;
+            left: 5vw;
+            top: 2vw;
+        }
+        nav a,
+        nav button {
+            font-size: 2vw;
+            color: #FFFFFF;
+            font-weight: normal;
+        }
+        .dropdown-content a {
+            font-size: 2vw;
+            margin-bottom: 1vw;
+        }
+        nav .nav_3 {
+            margin-left: -0.3vw;
+        }
+        nav .nav_2 {
+            margin-top: -0.4vw;
+        }
+        .menu-burger__header.open-menu span {
+            opacity: 0;
+            transition: 0.5s;
+        }
+        .menu-burger__header.open-menu:before {
+            transform: rotate(38deg);
+            top: 16px;
+            transition: 0.4s;
+        }
+        .menu-burger__header.open-menu:after {
+            transform: rotate(-38deg);
+            bottom: 16px;
+            transition: 0.4s;
+        }
+        .header__menu {
+            display: block;
+        }
+        .header__menu li {
+            margin: 40px 0px 40px 33px;
+        }
+        .services .sort_button button {
+            font-size: 1.5vw;
+            line-height: 2vw;
+        }
+        .services .sort_text h5 {
+            font-size: 2vw;
+        }
+        .services .sort_text p {
+            font-size: 1.1vw;
+            line-height: 1.5vw;
+        }
+        .services .sort_text button {
+            font-size: 1.4vw;
+            line-height: 2.5vw;
+        }
+        .services a {
+            font-size: 1.3vw;
+        }
+        .sort_text_1_1,
+        .sort_text_1_2,
+        .sort_text_1_3,
+        .sort_text_1_4,
+        .sort_text_1_5,
+        .sort_text_1_6 {
+            margin-top: -23vw;
+        }
+        .sort_text_3_1,
+        .sort_text_3_2,
+        .sort_text_3_3,
+        .sort_text_3_4,
+        .sort_text_3_5,
+        .sort_text_3_6,
+        .sort_text_3_7,
+        .sort_text_3_8,
+        .sort_text_3_9,
+        .sort_text_3_10,
+        .sort_text_3_11,
+        .sort_text_3_12,
+        .sort_text_3_13 {
+            width: 30.3vw;
+            position: absolute;
+            display: none;
+            height: 29.6vw;
+            background: #D1FFFE;
+            margin-top: -32vw;
+            margin-left: 40vw;
+        }
+        .promotions .promotions_date {
+            font-size: 1.4vw;
+        }
+        .promotions p {
+            font-size: 1.2vw;
+            line-height: 1.5vw;
+        }
+        .form_cont p {
+            font-size: 1.2vw;
+            line-height: 1.5vw;
+        }
+        .form_cont img {
+            width: 3vw;
+            height: 3vw;
+        }
+        .form_cont a {
+            font-size: 1.3vw;
+            font-weight: 800;
+        }
+        form input {
+            font-size: 1.5vw;
+        }
+        .form form button {
+            margin-left: 7vw;
+        }
+    }
+    
+    @media screen and (max-width: 999px) {
+        .search,
+        .numbers a,
+        .numbers img,
+        .comand_slider {
+            display: none;
+        }
+        header .img_1 {
+            margin-left: -23vw;
+        }
+        header .img_2 {
+            margin-left: -15vw;
+        }
+        header .img_3 {
+            margin-left: -3vw;
+        }
+        header .online {
+            margin-left: 16vw;
+        }
+        .header_nav {
+            height: auto;
+        }
+        nav li {
+            margin-bottom: 5vw;
+        }
+        .menu-burger__header {
+            margin-left: 85vw;
+        }
+        .header_logo_img {
+            margin-left: 4vw;
+        }
+        .head_slider .slider {
+            height: 24vw;
+        }
+        .clinic {
+            margin-top: 10vw;
+            margin-bottom: 10vw;
+            margin-left: 10vw;
+        }
+        .clinic_img {
+            display: none;
+        }
+        .clinic_text {
+            text-align: center;
+        }
+        .clinic .clinic_text p {
+            text-align: justify;
+            font-size: 2vw;
+            line-height: 2vw;
+        }
+        .specialists {
+            height: auto;
+        }
+        .specialist_1,
+        .specialist_2,
+        .specialist_3,
+        .specialist_4,
+        .specialist_5 {
+            width: auto;
+            text-align: center;
+            margin-bottom: 7vw;
+            background-color: #d1fffe00;
+        }
+        .comand {
+            display: inline;
+        }
+        .comand p {
+            margin-bottom: 3vw;
+            margin-top: 2vw;
+        }
+        .specialist_5 {
+            height: auto;
+            padding-bottom: 4vw;
+        }
+        .comand a {
+            background-color: #02BBB6;
+            border-radius: 1vw;
+            padding: 0.4vw;
+            padding-left: 0.6vw;
+            padding-right: 0.6vw;
+            color: #555555;
+            font-size: 3vw;
+            font-family: "Roboto", sans-serif;
+            text-decoration: none;
+            margin-left: 3.6vw;
+            border: solid #02BBB6 1px;
+        }
+        .sort_text_3_btn li {
+            line-height: 1vw;
+        }
+    }
+    
+    @media screen and (max-width: 319px) {
+        header {
+            height: 20vw;
+        }
+        .specialists h2 {
+            font-size: 7vw;
+            margin-left: -14vw;
+            margin-bottom: 4vw;
+            text-align: center;
+        }
+        .comand li {
+            padding-bottom: 15vw;
+        }
+        .comand a {
+            margin-left: -2vw;
+        }
+        .sort_text_3_btn li {
+            line-height: 0.5vw;
+        }
+        footer a {
+            font-size: 1.5vw;
+        }
+        footer li {
+            line-height: 1vw;
+        }
+    }
