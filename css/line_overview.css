@@ -1,0 +1,232 @@
+@import "./reset.css";
+@import "./nav.css";
+@import "./text\ styles.css";
+@import "./helios_cond.css";
+@import "./button.css";
+
+
+.lamp{
+    padding-top: 160px;
+    padding-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+.lamp h6{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    line-height: 2.5vw;
+}
+.lamp img{
+    width: 100%;
+    margin-top: -10vw;
+    z-index: -1;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: -10vw;
+}
+.details img{
+    width: 17vw;
+}
+.details .number_1, .details .number_2, .details .number_3{
+    display: block;
+    width: 5vw;
+    margin-top: -2vw;
+    box-shadow: 0 0 5px 2px rgb(179, 175, 175);
+    border: solid rgb(179, 175, 175) 1px;
+}
+.details .number_1{
+    margin-left: 1vw;
+}
+.details .number_2{
+    margin-left: 4vw;
+}
+.details .number_3{
+    margin-left: 3vw;
+}
+.details h6, .details p{
+    text-align: left;
+}
+.details h6{
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+}
+.details .body h6, .details .body p{
+    margin-left: 1vw;
+}
+.details .light_source h6, .details .light_source p{
+    margin-left: 4vw;
+}
+.details .glass h6, .details .glass p{
+    margin-left: 3vw;
+}
+.drivers{
+    display: block;
+    margin-top: 7vw;
+    background-color: #f5f5f5;
+}
+.drivers .drivers_text{
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    margin-left: 10vw;
+    margin-right: 40vw;
+}
+.lamp_img{
+    width: 45vw;
+    margin-left: 50vw;
+    margin-top: -26vw;
+}
+.driver_mw, .driver_ph{
+    width: 10vw;
+    margin-top: -17vw;
+    margin-left: 2vw;
+}
+.driver_mw{
+    margin-left: 10vw;
+}
+.technical_parameters{
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+.technical_parameters_header{
+    margin-left: 10vw;
+    display: flex;
+}
+.technical_parameters_header h6{
+margin-top: 1.5vw;
+flex-grow: 2;
+}
+.technical_parameters_header_img{
+    flex-grow: 1;
+    margin-left: 3.5vw;
+}
+.technical_parameters_header_img img{
+    width: 5vw;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+}
+.technical_parameters_header_img .voltage{
+    width: 12.4vw;
+}
+.technical_parameter {
+    padding-bottom: 1vw;
+    cursor: pointer;
+    padding-left: 2vw;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    width: 80vw;
+    margin-left: 10vw;
+    display: flex;
+    border: solid rgb(77, 77, 77) 1px;
+  }
+  .technical_parameter p{
+      font-weight: 600;
+      flex-grow: 1;
+      margin-top: 2.5vw;
+  }
+  .technical_parameter .img_200{
+      width: 40vw;
+      height: 4vw;
+      padding-top: 1vw;
+      padding-bottom: 1vw;
+  }
+  .technical_parameter .img_135{
+    width: 16vw;
+    height: 4vw;
+    flex-grow: 0.5;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-right: -0.3vw;
+  }
+  .technical_parameter .img_100{
+    width: 4.5vw;
+    height: 4vw;
+    flex-grow: 0.5;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+.technical_parameter .img_70{
+    width: 12.5vw;
+    height: 4vw;
+    flex-grow: 0.1;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+  .active, .technical_parameter:hover {
+    background-color: rgb(252, 252, 252);
+}
+  .technical_parameter_panel {
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    width: 79.96vw;
+    margin-left: 10vw;
+    border-right: solid rgb(77, 77, 77) 1px;
+  }
+  .technical_parameters .technical_parameter_panel th{
+      background-color: #61a375;
+      border: solid rgb(77, 77, 77) 1px;
+      width: 100%;
+  }
+  .technical_parameters .technical_parameter_panel th p{
+    color: rgb(252, 252, 252);
+    text-align: left;
+    margin-left: 2vw;
+  }
+  .technical_parameters .technical_parameter_panel th:not(:first-child){
+      padding-right: 1.5vw;
+  }
+  .technical_parameters .technical_parameter_panel .PPF, .technical_parameters .technical_parameter_panel .BPF{
+      padding-left: 1vw;
+      padding-right: 1vw;
+  }
+  .technical_parameters .technical_parameter_panel td{
+    border: solid rgb(0, 0, 0) 1px;
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+  .technical_parameters .technical_parameter_panel .designations{
+      text-align: left;
+      padding-left: 2vw;
+      padding-right: 2vw;
+  }
+  .technical_parameters .technical_parameter_panel .size{
+      width: 40vw;
+      margin-bottom: -17vw;
+  }
+
+
+
+footer{
+    background-color: #f5f5f5;
+    height: auto;
+}
+footer ul{
+    padding-top: 10px;
+    margin-left: 60vw;
+}
+footer .author{
+    padding-top: 20px;
+}
+footer img{
+    margin-top: -18px;
+    height: 27px;
+}
+footer .map{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #2c2a2a;
+}
+footer a:hover{
+    color: #61a375;
+}
